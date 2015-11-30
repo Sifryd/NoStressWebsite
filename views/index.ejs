@@ -1,11 +1,123 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <title><%= title %></title>
-    <link rel='stylesheet' href='/stylesheets/style.css' />
-  </head>
-  <body>
-    <h1><%= title %></h1>
-    <p>Welcome to <%= title %></p>
-  </body>
+<head>
+
+    <title>No Stress Gaming</title>
+    <link href="/stylesheets/bootstrap.min.css" rel="stylesheet" type="text/css">
+
+    <script src="/javascripts/angular.min.js"></script>
+    <script src="/javascripts/angularApp.js"></script>
+    <script src="/javascripts/jquery.js"></script>
+    <script src="/javascripts/bootstrap.min.js"></script>
+</head>
+<body ng-app="noStressWebsite" ng-controller="MainCtrl" style="padding-top: 70px;">
+<nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">NoStress Gaming</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="#">Presentation<span class="sr-only">(current)</span></a></li>
+                <li><a href="#">Link</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"
+                       role="button" aria-haspopup="true" aria-expanded="false">
+                        Recrutement
+                        <span class="caret"></span>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Formulaire</a></li>
+                        <li><a href="#">Recrutement en cours</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="#">Archives</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"
+                       role="button" aria-haspopup="true" aria-expanded="false">
+                        NoStress WoW
+                        <span class="caret"></span>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Charte de Guilde</a></li>
+                        <li><a href="#">Log de raid</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#">Connectez-Vous</a></li>
+                <li><a href="#"> Inscription </a></li>
+            </ul>
+        </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+</nav>
+<div style="margin-left: 10%; margin-right: 10%">
+    <h1 style="text-align: center">No Stress Gaming</h1>
+    <br/>
+
+    <h2>Une histoire</h2>
+    <br/>
+
+    <p>
+        <strong>No Stress Gaming</strong> est une structure e-sportive l'identité propre et l'histoire ancrée au travers
+        d'un parcours qui débute il y a 15 ans déj : BloodDust Clan, The Fallen, Runes, CDLO sont autant de chapitres
+        que les plus anciens vous raconteront avec plaisir !
+        <br/>
+        <br/>
+        No Stress a connu des périodes troubles, des échecs, des succès mais a toujours avancé en laissant l'humain au
+        centre de nos relations.
+        <br/>
+        <br/>
+        Elle a été créée par des fondateurs avec de vraies personnalités, des joueurs qui voulaient quelque chose de
+        plus professionnel que la structure amateur du coin d'Orgrimmar, tout en faisant toujours passer l'irl devant.
+        Entre le casual, le pro et l'hardcore gamer, il y a un monde dont font partis les NoStress.
+        <br/>
+        <br/>
+        Composée principalement de joueurs matures (25/40 ans), nous ne vous proposons pas un mariage, mais juste de
+        venir écrire une page, un chapitre ou un tome de l'histoire de l'équipe, dans le respect qu'impose le rôle que
+        vous souhaitez tenir. (un membre compétitif n'a pas les mêmes devoirs qu'un membre casual).
+        <br/>
+        <br/>
+        Allier performances, respect et qualité de vie IRL/IG, c'est le pari que nous faisons !
+    </p>
+
+    <h2>Une structure multi-jeux</h2>
+    <br/>
+
+    <p>
+        No Stress Gaming est présente sur plusieurs jeux, principalement Blizzard. Nous disposons d'une guilde sur World
+        of warcraft, serveur Culte de la rive noire, d'une équipe compétitive sur Heroes of the Storm, d'une équipe en
+        constitution sur League of Legend et d'un clan sur Diablo 3 (mode casual).
+        <br/>
+        <br/>
+        No Stress WoW est une guilde hordeuse crée en 2009 sur le serveur du Culte de la Rive Noire l'époque d'ulduar.
+        Nous étions ensemble dans une guilde peu active et avons organisé des raids de notre coté avant de décider de
+        créer notre propre guilde : NoStress.
+        La guilde dans sa forme actuelle date de decembre 2013 avec le retour des membres fondateur de No Stress sur WOW
+        avec pour projet de développer une guilde compétitive pour World of Warcraft: Warlord of Draenor.
+        <br/>
+        <br/>
+    </p>
+
+    <h2>Une structure pleine de projets</h2>
+    <br/>
+    Parce-que les ambitions animent les passions, nous avons un certain nombre de projets en développement, différentes
+    échelles. Bien entendu tout ne sera pas réalisé mais nous aurons le plaisir de vous les présenter au moment venu via
+    nos outils de communication.
+    Toute l'aide sera alors la bienvenue, de joueurs avertis comme de non joueurs,so ...
+    <br/>
+    <br/>
+    Stay tuned !
+
+
+</div>
+</body>
 </html>
