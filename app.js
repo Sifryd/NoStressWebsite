@@ -11,8 +11,8 @@ var mongoose = require('mongoose');
 
 var app = express();
 
-require('.models/Post');
-require('.models/Apply');
+require('./models/Post');
+require('./models/Apply');
 mongoose.connect('mongodb://localhost/noStressWebsite')
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
